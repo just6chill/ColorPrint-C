@@ -4,7 +4,7 @@
 
 int main()
 {
-	ColorPrint(GREEN, "I'm Geed\n");
+	ColorPrint(GREEN, "I'm Green\n");
 	ColorPrint(LGREEN, "I'm Light Green\n");
 	ColorPrint(BLUE, "I'm Blue\n");
 	ColorPrint(LBLUE, "I'm Light Blue\n");
