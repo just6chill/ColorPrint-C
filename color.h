@@ -1,5 +1,5 @@
-#ifndef _DELDIR_H_
-#define _DELDIR_H_
+#ifndef _COLOR_H_
+#define _COLOR_H_
 
 int ColorPrint(int color, char *text, ...);
 
