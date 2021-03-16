@@ -10,7 +10,7 @@ ColorPrint(COLORCODE, "text\n");
 example:
 
 ```c
-ColorPrint(GREEN, "Hello World\n)
+ColorPrint(GREEN, "Hello World\n")
 ```
 
 ---
