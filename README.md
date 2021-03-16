@@ -47,3 +47,8 @@ compile:
     gcc -c color.c
 
     gcc -o output.exe main.o color.o
+    
+![GitHub all releases](https://img.shields.io/github/downloads/just6chill/ColorPrint-C/total)
+![GitHub last commit](https://img.shields.io/github/last-commit/just6chill/ColorPrint-C)
+![GitHub top language](https://img.shields.io/github/languages/top/just6chill/ColorPrint-C)
+
