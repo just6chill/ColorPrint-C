@@ -2,7 +2,7 @@
 #include <windows.h>
 #include <stdarg.h>
 
-#include "color.h" //enum colors {GREEN, RED, BLUE, YELLOW, LIGHTBLUE, VIOLET};
+#include "color.h" 
 
 int ColorPrint(int color, char *text, ...){
 	
