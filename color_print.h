@@ -65,7 +65,7 @@ void ColorPrint(int color, char *text, ...){
 	va_list pointer;
 	va_start(pointer, text);
 
-	SetConsoleTextAttribute(hConsole, color);
+	if (color >= 0 && color <= 255) SetConsoleTextAttribute(hConsole, color);
 
 	vprintf(text, pointer);
 	va_end(pointer);

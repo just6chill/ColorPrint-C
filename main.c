@@ -16,5 +16,6 @@ int main()
 	ColorPrint(LYELLOW, "I'm Light Yellow\n");
 	ColorPrint(VIOLET, "I'm Violet\n");
 	ColorPrint(PINK, "I'm Light Pink\n");
+	ColorPrint(WHITE + BG_BLUE, "I'm White on Blue\n");
 	return 0;
 }
