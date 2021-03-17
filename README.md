@@ -53,12 +53,14 @@ Here is a display output:
 
 Compile:
 
-    gcc -c main.c
-
-    gcc -c color.c
-
-    gcc -o output.exe main.o color.o
-    
+Windows:
+```
+    gcc main.c -o cprint.exe
+```
+Linux (cross-compile):
+```
+    i686-w64-mingw32-gcc main.c -o cprint.exe
+```
 ---
     
 ![GitHub all releases](https://img.shields.io/github/downloads/just6chill/ColorPrint-C/total)
