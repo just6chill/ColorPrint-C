@@ -3,7 +3,6 @@
 
 int ColorPrint(int color, char *text, ...);
 
-enum colors {GREEN, RED, BLUE, YELLOW, LBLUE, VIOLET, LGREEN, LRED, CYAN, LYELLOW, LCYAN, PINK};
-
+enum colors {BLACK, BLUE, GREEN, CYAN, RED, VIOLET, YELLOW, LGREY, GREY, LBLUE, LGREEN, LCYAN, LRED, LVIOLET, LYELLOW, WHITE};
 
 #endif
