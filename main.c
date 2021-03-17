@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "color.h"
+#include "color_print.h"
 
 int main()
 {
@@ -15,6 +15,6 @@ int main()
 	ColorPrint(YELLOW, "I'm Yellow\n");
 	ColorPrint(LYELLOW, "I'm Light Yellow\n");
 	ColorPrint(VIOLET, "I'm Violet\n");
-	ColorPrint(PINK, "I'm Pink\n");
+	ColorPrint(PINK, "I'm Light Pink\n");
 	return 0;
 }
