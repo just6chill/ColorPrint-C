@@ -4,7 +4,7 @@
 
 #include "color.h" 
 
-int ColorPrint(int color, char *text, ...){
+void ColorPrint(int color, char *text, ...){
 
 	/* save current text color */
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
