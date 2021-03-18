@@ -1,13 +1,13 @@
 # ColorPrint-C
 A small implentation for C which allow you to print messages colored. Its working with the Win API.
 
-Usage:
+### Usage:
  
 ```c
 ColorPrint(COLORCODE, "text\n");
 ```
     
-Example:
+### Example:
 
 ```c
 ColorPrint(GREEN, "Hello World\n")
@@ -15,7 +15,7 @@ ColorPrint(GREEN, "Hello World\n")
 
 ---
     
-Avalible color codes (use BG\_COLORCODE to set the background):
+### Avalible color codes (use BG\_COLORCODE to set the background):
 
 |Color code|Color|
 |-|-|
@@ -33,7 +33,7 @@ Avalible color codes (use BG\_COLORCODE to set the background):
 |LRED|Light red|
 |LVIOLET|Light violet/pink|
 |LYELLOW|Light yellow|
-|WHITE|white|
+|WHITE|White|
 
 |Color code|Alias|
 |-|-|
@@ -51,7 +51,7 @@ Here is a display output:
 
 ---
 
-Compile:
+### Compile:
 
 Windows:
 ```
